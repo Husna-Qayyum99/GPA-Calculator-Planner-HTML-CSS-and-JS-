@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPA Calculator & Planner - Smart Academic Planning Tool</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+
+  <body>
+    <div class="main-container">
+      <nav>
+        <div class="nav-bar">
+          <div class="calculator-icon"></div>
+          <div class="left-nav">
+            <div class="gpa-calculator-heading">
+              <div class="calculator-icon"></div>
+              <h2>
+                <i class="fa-solid fa-calculator"></i>GPA Calculator & Planner
+              </h2>
+            </div>
+          </div>
+          <div class="nav-items">
+            <ul id="menu-list" class="hidden">
+
+              <li><a href="https://mishwani.tech/#features">Features</a></li>
+              <li>
+                <a href="https://mishwani.tech/#screenshots">Screenshots</a>
+              </li>
+              <li><a href="https://mishwani.tech/#reviews">Reviews</a></li>
+              <li><a href="https://mishwani.tech/#download">Downloads</a></li>
+            </ul>
+          </div>
+          <div class="get-started-button">
+            <a
+              href="https://play.google.com/store/apps/details?id=advc.calc.easygpacalculator"
+              >Get Started</a
+            >
+          </div>
+        </div>
+        <div class="menu-bar-icon">
+          <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+      </nav>
+      <section class="home-screen">
+        <div class="home-content">
+          <div class="home-content-left-text">
+            <span class="rating-badge">
+              <i class="fa-solid fa-award"></i>
+              4.9★ Rated on Play Store
+            </span>
+            <span class="prominent-heading">
+              <h1 id="text">
+                GPA Calculator <br />
+                <span id="gradient-text-color">& Planner!</span>
+              </h1>
+            </span>
+            <p class="description">
+              A flexible and powerful Android app that helps university students
+              calculate GPA, track CGPA, plan semesters, and customize
+              everything to fit their academic needs.
+            </p>
+            <span class="dvnld-source-code-btns" style="text-wrap: nowrap;">
+              <a
+                href="https://play.google.com/store/apps/details?id=advc.calc.easygpacalculator "
+                id="dvnld-now"
+                ><i class="fa-solid fa-arrow-down" style="
+                font-size: 16px; color: white;"></i> Download Now</a
+              >
+              <a
+                href="https://github.com/abuzar-mishwani/Android-App-Landing-Page"
+                id="view-source-code"
+                ><i class="fa-brands fa-github"></i>View Source Code</a
+              >
+            </span>
+            <div class="rating-counts">
+              <div class="left-group">
+                <div class="icon">
+                  <i
+                    class="fa-solid fa-users"
+                    style="
+                      position: relative;
+                      top: 40px;
+                      left: 12px;
+                      background: linear-gradient(
+                        to right,
+                        rgb(103, 103, 216),
+                        rgb(74, 41, 194)
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  ></i>
+                </div>
+                <div class="nmbr-of-dvnlders"><h1>50K+</h1></div>
+                <div class="dvnld">Downloads</div>
+              </div>
+              <div class="left-group">
+                <div class="icon">
+                  <i
+                    class="fa-regular fa-star"
+                    style="position: relative; top: 40px; left: 12px"
+                  ></i>
+                </div>
+                <div class="nmbr-of-ratings"><h1>4.9★</h1></div>
+                <div class="dvnld">Play Store Rating</div>
+              </div>
+              <div class="left-group">
+                <div class="icon">
+                  <i
+                    class="fa-solid fa-globe"
+                    style="
+                      position: relative;
+                      top: 40px;
+                      left: 12px;
+                      background: linear-gradient(
+                        to right,
+                        rgb(103, 103, 216),
+                        rgb(74, 41, 194)
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  ></i>
+                </div>
+                <div class="nmbr-of-dvnlders"><h1>10+</h1></div>
+                <div class="dvnld">Languages</div>
+              </div>
+            </div>
+          </div>
+          <div class="home-content-right-animation">
+            <div class="mble-img">
+              <img src="image.png" alt="mobile" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="detail-portion">
+        <div class="general-query">
+          Why Choose <span id="gradient-text-color">Our App?</span>
+        </div>
+        <div class="detailed-text">
+          <div class="first-description">
+            <i class="fa-solid fa-zap"></i>
+            <div class="all-in-one-icon">
+              <h3>All-in-One GPA Suite</h3>
+              <p>
+                Calculte semester GPA, cumulativeGPA, convert percentages, and
+                generate professional reports—all in one app.
+              </p>
+            </div>
+          </div>
+          <div class="second-description">
+            <i class="fa-solid fa-sliders"></i>
+            <div class="customizable-icon">
+              <h3>Customizable & Flexible</h3>
+              <p>
+                Adapt grading scales, course templates, and planner tools to fit
+                any university or personal academic need.
+              </p>
+            </div>
+          </div>
+          <div class="third-description">
+            <i class="fa-solid fa-shield-halved"></i>
+            <div class="private-icon">
+              <h3>Private & Ad-Free</h3>
+              <p>
+                Enjoy a secure, offline experience with no ads—your data stays
+                private and your focus remains on your goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="advanced-portion">
+          <div class="comprehensive-features">
+            <span
+              style="
+                background-color: white;
+                border-radius: 25px;
+                padding: 5px 10px;
+              "
+            >
+              <i class="fa-solid fa-wand-sparkles" style="font-size: 18px"></i>
+              Comprehensive Features</span
+            >
+          </div>
+          <div class="advanced-content">
+            <span><h2 id="gradient-text-color">Advanced GPA Tools</h2></span>
+            <p>
+              Discover the most advanced GPA & CGPA calculation, planning, and
+              reporting features—fully customizable and designed for every
+              university system.
+            </p>
+          </div>
+        </div>
+        <div class="all-features">
+          <div class="features-detail">
+            <i class="fa-solid fa-calculator"></i>
+            <h3>Semester GPA Calculator</h3>
+            <p>
+              Input course marks (manual or via templates) to compute GPA,
+              percentage, average marks, total credits, and obtain a polished
+              PDF report.
+            </p>
+          </div>
+          <div class="features-detail">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Cumulative GPA Calculator</h3>
+            <p>
+              Track academic progress across semesters, with options to
+              include/exclude credit hours. Supports 4.0, 5.0, and 10.0 scales,
+              plus detailed CGPA breakdown and PDF export.
+            </p>
+          </div>
+          <div class="features-detail">
+            <i class="fa-solid fa-bullseye"></i>
+            <h3>Strategic GPA Planner</h3>
+            <p>
+              Set a target CGPA and calculate the required semester GPAs for the
+              remaining terms. Includes achievability analysis to assess your
+              goals.
+            </p>
+          </div>
+          <div class="features-detail">
+            <i class="fa-solid fa-sliders"></i>
+            <h3>Customizable Grading System</h3>
+            <p>
+              Customize grading scales with grade letters, percentage ranges,
+              and GPA values. Start with built-in templates or create your own
+              for university-specific grading.
+            </p>
+          </div>
+          <div class="features-detail">
+            <i class="fa-solid fa-arrows-rotate"></i>
+            <h3>Percentage ↔ GPA Converter</h3>
+            <p>
+              Quickly convert between percentage and GPA across multiple scales
+              (4.0, 5.0, 10.0) with a clean, streamlined tool.
+            </p>
+          </div>
+          <div class="features-detail">
+            <i class="fa-solid fa-layer-group"></i>
+            <h3>Pre-Built Course Templates</h3>
+            <p>
+              Use course templates for departments or semesters; fully
+              editable—tweak subjects, credits, names as needed.
+            </p>
+          </div>
+          <div class="features-detail">
+            <i class="fa-solid fa-file-lines"></i>
+            <h3>Exportable Professional Reports</h3>
+            <p>
+              Generate PDF reports for GPA, CGPA, and planner outcomes—neat,
+              formatted, and ideal for sharing or printing.
+            </p>
+          </div>
+          <div class="features-detail">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <h3>History & Statistics Tracking</h3>
+            <p>
+              View past GPA calculations and trends with built-in history logs,
+              so you can monitor long-term performance.
+            </p>
+          </div>
+          <div class="features-detail">
+            <i class="fa-solid fa-wifi"></i>
+            <h3>Offline & Ad‑Free</h3>
+            <p>
+              Fully functional offline—no internet required. No ads, ensuring a
+              smooth and focused user experience.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="interface-portion">
+          <div class="interface-content">
+            <h2 id="gradient-text-color">Beautiful Interface</h2>
+            <p>
+              Experience a clean, intuitive design that makes GPA tracking and
+              planning effortless and enjoyable.
+            </p>
+          </div>
+          <div class="interface-container">
+           <div class="image-slider" id="imgSlider">
+  <div class="img-1"><img src="interface-1.PNG"></div>
+  <div class="img-2"><img src="interface-2.PNG"></div>
+  <div class="img-3"><img src="interface-3.PNG"></div>
+  <div class="img-4"><img src="interface-4.PNG"></div>
+  <div class="img-5"><img src="interface-5.PNG"></div>
+  <div class="img-6"><img src="interface-6.PNG"></div>
+  <div class="img-7"><img src="interface-7.PNG"></div>
+  <div class="img-8"><img src="interface-8.PNG"></div>
+  <div class="img-9"><img src="interface-9.PNG"></div>
+  <div class="img-10"><img src="interface-10.PNG"></div>
+</div>
+    </div>
+        </div>
+      </section>
+      <section>
+        <div class="students-pov">
+          <div class="pov-container">
+            <div class="pov-heading">
+              <span class="review-badge"><i class="fa-regular fa-star review-star-icon"></i>
+ Students Review</span>
+              <h1>What <span id="gradient-text-color" >Students Say</span></h1>
+              <p>Join thousands of satisfied students who trust our GPA Calculator & Planner.</p>
+            </div>
+          </div>
+          <div class="slider-container-pov">
+            <div class="pov-slider" id="povSlider">
+
+              <div class="img-1">
+                <img src="pov-1.PNG">
+              </div>
+              <div class="img-2">
+                <img src="pov-2.PNG">
+              </div>
+              <div class="img-3">
+                <img src="pov-3.PNG">
+              </div>
+              <div class="img-4">
+                <img src="pov-4.PNG">
+              </div>
+              <div class="img-5">
+                <img src="pov-5.PNG">
+              </div>
+              <div class="img-6">
+                <img src="pov-6.PNG">
+              </div>
+              <div class="img-7">
+                <img src="pov7.PNG">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section> 
+        <div class="academic-transformation">
+        <div class="transformation-content">
+          <div class="transformation-heading" style="text-align: center; font-size: 30px;"><h1>Ready To Transform Your <br><span id="gradient-text-color">Academic Journey?</span></h1> <p style="font-size: 16px;">Join thousands of students who are already using our app to achieve their academic goals.</p></div>
+          <div class="google-playstore">
+            <a href="https://play.google.com/store/apps/details?id=advc.calc.easygpacalculator">
+              <i
+                class="fa-brands fa-google-play" style="margin-top: 10px; font-size: 25px;" >
+
+              </i>
+              
+              <span style="font-size: 8px; position: relative; top: -15px;">GET IT ON</span><br><span style="font-size: 17px; font-weight: 500; margin-left: 20px; position: relative; top: -15px;">Google Play</span>
+            </a>
+
+          </div>
+          <div class="app-features">
+            <div class="feature-points">
+              <div><i class="fa-regular fa-circle-check" style="color: blue; font-size: 16px;"></i><span>100% Free use</span></div>
+              
+            </div>
+            <div class="feature-points">
+              <div><i class=" fa-regular fa-circle-check" style="color: blue; font-size: 16px;"></i><span>No adds or subscriptions</span></div>
+              
+            </div>
+            <div class="feature-points">
+              <div><i class="fa-regular fa-circle-check" style="color: blue; font-size: 16px; "></i><span>Offline Functionality</span></div>
+              
+            </div>
+            <div class="feature-points">
+              <div><i class="fa-regular fa-circle-check" style="color: blue; font-size: 16px; "></i><span>10+ Languages supported</span></div>
+              
+            </div>
+            <div class="feature-points">
+              <div><i class="fa-regular fa-circle-check" style="color: blue; font-size: 16px; "></i><span>Professional PDF reports</span></div>
+              
+            </div>
+            <div class="feature-points">
+              <div><i class="fa-regular fa-circle-check" style="color: blue; font-size: 16px; "></i><span>Regular updates</span></div>
+              
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section>
+        <div class="sum-up">
+          <div class="sum-up-heading"  style="display: flex; justify-content: center; gap: 10px;" >
+            <div><i class="fa-solid fa-calculator" style="position: relative; top: 30px; "></i></div>
+            <span><h3 id="gradient-text-color">GPA Calculator & Planner</h3></span>
+          </div>
+          <p style="font-size: 16px; text-align: center; max-width: 600px; margin-left: 360px;">Empowering students worldwide to achieve academic excellence through smart planning, accurate calculations, and beautiful design.</p>
+        </div>
+      </section>
+      <footer>
+        &copy;2025 HindukushSoft Technologies. Made with ❤️ for 🌍 by Abu Zar Mishwani
+      </footer>
+    </div>
+  </body>
+</html>
