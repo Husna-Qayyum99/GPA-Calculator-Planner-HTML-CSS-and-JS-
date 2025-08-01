@@ -14,7 +14,7 @@ Designed to help students calculate semester GPA and plan ahead — fast, mobile
 - ✅ Stylish design using CSS animations and transitions
 - ✅ Font Awesome icons integration
 - ✅ Screenshot slider and user reviews section
-- ✅ Dark-friendly color contrast
+- ✅ friendly color contrast
 
 ---
 ## Screenshot
@@ -22,7 +22,4 @@ Designed to help students calculate semester GPA and plan ahead — fast, mobile
 (<img width="1025" height="465" alt="image" src="https://github.com/user-attachments/assets/4fbf3b31-9716-4605-8961-c0d804e1bebb" />
 )
 
-
-
-## 📁 Folder Structure
 
